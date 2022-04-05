@@ -8,7 +8,7 @@ public class Menu {
 
 		boolean misterio = true;
 		do {
-			mostrarPorConsola("Elija una opción: \n 1. opción Binaria\n 2. opción Lineal\n 999. salir\n");
+			mostrarPorConsola("Elija una opción: \n 1. opción Binaria\n 2. opción Lineal\n 3. opción QuickSort\n 4. opción Intercambio\n 5. opción Burbuja\n 999. salir\n");
 			int seleccion = read();
 			switch (seleccion) {
 			case 1:
@@ -16,6 +16,15 @@ public class Menu {
 				break;
 			case 2:
 				mostrarPorConsola("Ha elegido la opción Lineal");
+				break;
+			case 3:
+				mostrarPorConsola("Ha elegido la opción QuickSort");
+				break;
+			case 4:
+				mostrarPorConsola("Ha elegido la opción Intercambio");
+				break;
+			case 5:
+				mostrarPorConsola("Ha elegido la opción Burbuja");
 				break;
 			case 999:
 				misterio = false;
